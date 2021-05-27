@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".QRGenerator"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/editTextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:autofillHints=""
+        android:text="text"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        />
+
+    <Button
+        android:id="@+id/buttonGenQRCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="10dp"
+        android:text="Confirm"
+        android:background="@drawable/rounded_button"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="40dp"
+        android:contentDescription="todo"
+        android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:background="@drawable/rounded_button"
+        android:text="Save"
+
+        android:visibility="invisible" />
+
+</LinearLayout>

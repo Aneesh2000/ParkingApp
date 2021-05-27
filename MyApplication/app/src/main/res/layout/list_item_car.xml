@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/img_Car"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_car"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/img_Car_selected"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/ic_car_selected"
+        android:layout_centerHorizontal="true"
+        android:visibility="invisible"/>
+
+</RelativeLayout>

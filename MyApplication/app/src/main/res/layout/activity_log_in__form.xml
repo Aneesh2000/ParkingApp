@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+
+    tools:context=".LogIn_Form"
+    >
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="359dp"
+        android:layout_height="93dp"
+        android:fontFamily="@font/anonymous_pro"
+        android:hint="PARKAR"
+        android:inputType="text"
+
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColorHint="#0E0E0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="353dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="60dp"
+
+        android:autofillHints="no"
+        android:background="#C1BCB4"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:hint="Enter_email_id"
+        android:inputType="text"
+        android:textColorHint="#050505"
+        android:textSize="20sp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#000000"
+        app:passwordToggleEnabled="true">
+
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:autofillHints="no"
+            android:background="#C1BCB4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="Password"
+            android:inputType="textPassword"
+
+
+            android:textColorHint="#050505"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+
+        android:text="login"
+        android:textColor="#100101"
+        android:textSize="30sp"
+        android:background="@drawable/rounded_button"/>
+
+    <TextView
+        android:id="@+id/signup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="monospace"
+        android:text="Signup"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#0C0C0C"
+        android:textSize="15sp" />
+
+
+    <ProgressBar
+        android:id="@+id/progressbar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="304dp"
+        android:layout_height="23dp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="354dp"
+        android:layout_height="251dp"
+        app:srcCompat="@drawable/car" />
+
+
+</LinearLayout>

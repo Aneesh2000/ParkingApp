@@ -1,0 +1,145 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp_Form"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/sign"
+    >
+
+
+    <TextView
+        android:id="@id/title"
+        android:layout_width="353dp"
+        android:layout_height="95dp"
+        android:fontFamily="@font/anonymous_pro_bold"
+        android:hint="PARKAR"
+        android:inputType="text"
+
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColorHint="#0E0E0E"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="319dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no"
+        android:background="#7C8F8383"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  Enter_name"
+        android:inputType="text"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColorHint="#0E0E0E"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no"
+        android:background="#7C8F8383"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint="  Enter_email_id"
+        android:inputType="text"
+        android:textColorHint="#0E0E0E"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="319dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no"
+        android:background="#7C8F8383"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint=" Password"
+        android:inputType="textPassword"
+        android:textColorHint="#0C0C0C"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="317dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="10dp"
+        android:autofillHints="no"
+        android:background="#7C8F8383"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="sans-serif-condensed-light"
+        android:hint=" Confirm_password"
+        android:inputType="textPassword"
+        android:textColorHint="#0C0C0C"
+        android:textSize="24sp" />
+
+    <RadioGroup
+        android:layout_width="351dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:background="#7C8F8383"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="91dp"
+            android:layout_height="45dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text=" Gender"
+            android:textColor="#0E0E0E"
+            android:textColorHighlight="#090909"
+            android:textColorHint="#050505"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="107dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Male"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="138dp"
+            android:layout_height="59dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Female"
+
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:fontFamily="serif-monospace"
+        android:text="register"
+        android:textColor="#0E0E0E"
+
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="74dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:text="Back"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#0C0C0C"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
